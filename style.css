@@ -75,3 +75,10 @@ body {
 .boxx img {
     border-radius: 50%;
 }
+
+@media (max-width: 500px) {
+  .container, .container2 {
+    width: 200px;
+    padding: 15px 25px;
+  }
+}
